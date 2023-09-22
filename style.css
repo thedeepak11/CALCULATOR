@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body {
+    margin: 5px;
+    padding: 2px;
+    font-weight: 100px;
+   background-color:lightskyblue;
+}
+
+/* Center all content */
+.container {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+
+/* Style the calculator title */
+h1 {
+    font-size: 35px;
+    color:darkmagenta;
+    text-shadow: lightseagreen;
+}
+
+/* Style the screen input */
+#screen {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    height: 10px;
+    border-color: black;
+
+}
+
+/* Style the calculator table */
+.calculator {
+    display: inline-block;
+    background-color:lightsalmon;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px;
+    
+    
+}
+
+/* Style the button table */
+.button {
+    width: 250px;
+    margin: 5 auto;
+    text-align: center;
+}
+
+/* Style the button cells */
+button {
+    width: 60px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    background-color:white;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    color: blue;
+}
+
+/* Style button on hover */
+button:hover {
+    background-color: black;
+}
+
+/* Style specific buttons */
+button.clear {
+    background-color:pink;
+    color:white;
+    font-weight: bold;
+}
+
+button.clear:hover {
+    background-color: red;
+}
+
+button.backspace {
+    background-color:skyblue;
+    color: white;
+    font-weight: bold;
+}
+
+button.backspace:hover {
+    background-color: lightpink;
+}
